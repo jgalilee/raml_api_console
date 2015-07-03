@@ -9,9 +9,8 @@ Gem::Specification.new do |s|
   s.version     = RamlApiConsole::VERSION
   s.authors     = ["Max Brosnahan"]
   s.email       = ["maximilianbrosnahan@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RamlApiConsole."
-  s.description = "TODO: Description of RamlApiConsole."
+  # s.homepage    = "TODO"
+  s.summary     = "Rails engine for raml api console"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
