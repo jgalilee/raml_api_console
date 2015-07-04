@@ -8,6 +8,7 @@ module RamlApiConsole
       else
         @raml_source = RamlApiConsole.api_doc_urls.first
       end
+      @theme = RamlApiConsole.theme
     end
   end
 end
