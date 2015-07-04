@@ -3,8 +3,11 @@ module RamlApiConsole
     layout nil
 
     def index
-      @raml_source = '1.yml'
+      if params[:raml_source]
+        @raml_source = params[:raml_source]
+      else
+        @raml_source = RamlApiConsole.api_doc_urls.first
+      end
     end
-
   end
 end
