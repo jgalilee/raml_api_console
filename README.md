@@ -1,3 +1,3 @@
 # RamlApiConsole
 
-This project rocks and uses MIT-LICENSE.
+Provides a rails engine for serving raml api documentation inside your rails app
