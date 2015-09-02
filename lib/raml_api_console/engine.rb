@@ -1,5 +1,5 @@
-module RamlApiConsole
+module RamlAPIConsole
   class Engine < ::Rails::Engine
-    isolate_namespace RamlApiConsole
+    isolate_namespace RamlAPIConsole
   end
 end

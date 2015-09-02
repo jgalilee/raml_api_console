@@ -6,7 +6,7 @@ require "raml_api_console/version"
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
   s.name        = "raml_api_console"
-  s.version     = RamlApiConsole::VERSION
+  s.version     = RamlAPIConsole::VERSION
   s.authors     = ["Max Brosnahan"]
   s.email       = ["maximilianbrosnahan@gmail.com"]
   # s.homepage    = "TODO"

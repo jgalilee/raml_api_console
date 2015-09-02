@@ -1,7 +1,7 @@
 require 'test_helper'
 
-class RamlApiConsoleTest < ActiveSupport::TestCase
+class RamlAPIConsoleTest < ActiveSupport::TestCase
   test "truth" do
-    assert_kind_of Module, RamlApiConsole
+    assert_kind_of Module, RamlAPIConsole
   end
 end
